@@ -9,39 +9,32 @@
             background: url(image/Bottom-of-the-Sea-Wallpaper-ocean-intrigued-37899366-1920-1200.jpg);
             background-size: 100% 1900px;
         }
-        h3, h1{
-            text-align: center;
-            font-size: 120%;
-            font-family: Verdana, Arial, Helvetica, sans-serif;
-            color: white;
+
+        ul.menu {
+            margin-left: 23%;
+            padding: 4px;
         }
-        p, li{
+        ul.menu li {
+            display: inline;
+            margin-right: 5px;
+        }
+
+        h3, h1, p, li{
             text-align: center;
             font-size: 140%;
-            font-family: Verdana, Museo Slab, Helvetica, sans-serif;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
             color: white;
             list-style-type: none;
         }
 
-        .round {
-            border-radius: 200px;
-            align-content: center;
+        .another {
+            margin-left: 20px;
+            width: 250px;	height: 200px; /* Размеры */
+            border-radius: 10px; /* Радиус скругления */
         }
-        .info{
-            margin-top: 100px;
-            text-align: center;
-            font-size: 23px;
-            color: rgb(255, 255, 121);
-        }
-        .teleg{
-            text-align: center;
-            font-size: 15px;
-            color: gray;
-        }
-        .inst{
-            text-align: center;
-            font-size: 15px;
-            color: gray;
+
+        .menu2{
+            margin-left: 12%;
         }
 
     </style>
@@ -53,6 +46,27 @@
 <body>
 
 <div class="text">
+
+    <div class="m">
+
+        <ul class="menu">
+
+            <li><input type="button" value="Перенаселение земли" onClick='location.href="ermakov.md"'></li>
+            <li><input type="button" value="Загрязнение атмосферы" onClick='location.href="index_Romanenko.html"'></li>
+            <li><input type="button" value="Переработка отходов" onClick='location.href="index_porotikov.html"'></li>
+            <li><input type="button" value="Main menu" onClick='location.href="index.html"'></li>
+        </ul>
+
+    </div>
+
+    <div class="menu2">
+
+        <a href="ermakov.md"><img src="image/img1.1.jpg" alt="creators" class="another" width="200" height="200" title="Перенаселение Земли"></a>
+        <a href="index_Romanenko.html"><img src="image/img2.2.jpg" alt="creators" class="another" width="200" height="200" title="Загрязнение атмосферы"></a>
+        <a href="index_porotikov.html"><img src="image/img3.jpg" alt="creators" class="another" width="200" height="200" title="Переработка отходов"></a>
+        <a href="index.html"><img src="image/img4.4.jpg" alt="creators" class="another" width="200" height="200" title="Главная страница"></a>
+
+    </div>
 
 <div class="water">
 <p>Вода – основа жизни на Земле, поэтому загрязнение вод Мирового океана – это проблема глобального масштаба, которая на сегодняшний день стоит очень остро. Если человечество не одумается, в скором времени могут возникнуть непредвиденные последствия.</p>
@@ -119,19 +133,11 @@
 
 </div>
 
-<p class="creators">Также вы можете ознакомиться с проблемами которые могут нас погубить на страницах других создателей нашего проекта:
-</p>
-<p>
-<center>
-    <a href="ermakov.md"><img src="image/img1.1.jpg" alt="creators" class="round" width="200" height="200" title="Перенаселение Земли"></a>
-    <a href="index_Romanenko.html"><img src="image/img2.2.jpg" alt="creators" class="round" width="200" height="200" title="Загрязнение атмосферы"></a>
-    <a href="index_porotikov.html"><img src="image/img3.jpg" alt="creators" class="round" width="200" height="200" title="Переработка отходов"></a>
-    <a href="index.html"><img src="image/img4.4.jpg" alt="creators" class="round" width="200" height="200" title="Главная страница"></a>
-</center>
-</p>
-<p class="info">Контактная информация:</p>
-<p class="teleg">telegram:@taylor_143</p>
-<p class="inst">instagram:@taylor_143</p>
-
+<p>Контактная информация:</p>
+<ul class="menu">
+    <li>telegram:@taylor_143 </li>
+    <li>instagram:@taylor_143 </li>
+    <li>phone: 099 132 64 40</li>
+</ul>
 </body>
 </html>
