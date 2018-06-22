@@ -1,0 +1,24 @@
+body {
+    background: url(http://oboi-na-stol.com/pub/original_images/oboi-na-stol.com-166486-peyzazhi-trava-kapli-minimalizm-priroda-zelen.jpg);  
+    }
+   
+   p {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 23px;
+       color: #ffffff;
+   }
+   .another {
+            margin-left: 20px;
+            width: 250px;	height: 200px; /* Размеры */
+            border-radius: 10px; /* Радиус скругления */
+        }
+
+        .menu2 {
+            margin-left: 9%;
+        }
+        .overpop{ color: #ffffff;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 30px;
+        }
+        
