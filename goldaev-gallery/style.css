@@ -3,9 +3,15 @@ body{
 }
 
 .first-style p, .second-style p{
+    font-family: Arial, sans-serif;
     color: white;
     text-align: center;
-    font-size: 30px
+    font-size: 30px;
+    border: 4px double black;
+    margin-left: 40%;
+    margin-right: 40%;
+    background: #057174; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
 }
 
 .first-style ul, .second-style ul{
@@ -23,16 +29,19 @@ body{
 .left{
     display: inline-block;
     background-image: url(img/left.png);
-    width: 321px;
-    height: 322px;
-    margin-left: 10%;
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    margin-left: 30%;
+
 }
 
 .right{
     display: inline-block;
     background-image: url(img/right.png);
-    width: 321px;
-    height: 322px;
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
 
 }
 
