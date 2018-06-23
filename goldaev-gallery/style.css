@@ -1,4 +1,9 @@
+body{
+    background-color: #363252;
+}
+
 .first-style p, .second-style p{
+    color: white;
     text-align: center;
     font-size: 30px
 }
@@ -29,6 +34,10 @@
     width: 321px;
     height: 322px;
 
+}
+
+a:visited{
+    color: red;
 }
 
 .left:hover{
