@@ -1,0 +1,40 @@
+.first-style p, .second-style p{
+    text-align: center;
+    font-size: 30px
+}
+
+.first-style ul, .second-style ul{
+    list-style-type: none;
+}
+
+.second-style img{
+    margin-left: 10%;
+}
+
+.second-style a {
+    font-size: 30px;
+}
+
+.left{
+    display: inline-block;
+    background-image: url(img/left.png);
+    width: 321px;
+    height: 322px;
+    margin-left: 15%;
+}
+
+.right{
+    display: inline-block;
+    background-image: url(img/right.png);
+    width: 321px;
+    height: 322px;
+
+}
+
+.left:hover{
+    background-image: url(img/left_circle.png);
+}
+
+.right:hover{
+    background-image: url(img/right_circle.png);
+}
