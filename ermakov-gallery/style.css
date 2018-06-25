@@ -51,3 +51,19 @@ background-size: 90px;
 width: 90px;
 height: 90px;
 }
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 70px;
+    margin-left: 489px;
+    
+    
+}
+body{
+      background: white
+}
+.photo{
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+}
