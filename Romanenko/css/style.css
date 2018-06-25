@@ -1,24 +1,29 @@
-.right{
-    background-image: url(../Gallery/img/right.png);
+
+.right {
+    background-image: url(../Gallery/img/spritesheet_r.png);
+    background-repeat: no-repeat;
+    display: block;
     width: 128px;
     height: 128px;
-    margin-top:400px;
-    float:right;
+    background-position: -5px -5px;
 }
-.right:hover{
-    background-image: url(../Gallery/img/right_h.png);
+
+.right:hover {
     width: 128px;
     height: 128px;
+    background-position: -143px -5px;
 }
-.left{
-    background-image: url(../Gallery/img/left.png);
+.left {
+    background-image: url(../Gallery/img/spritesheet_l.png);
+    background-repeat: no-repeat;
+    display: block;
     width: 128px;
     height: 128px;
-    margin-top:400px;
-    float:left;
+    background-position: -5px -5px;
 }
-.left:hover{
-    background-image: url(../Gallery/img/left_h.png);
+
+.left:hover {
     width: 128px;
     height: 128px;
+    background-position: -143px -5px;
 }
