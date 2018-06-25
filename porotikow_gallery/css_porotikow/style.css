@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.a{
+margin-left: 150px;
+margin-right: 100px;
+margin-top: 200px;
+width: 50px;
+height: 50px;
+background-image: url(porotikow_gallery/image.bugs/arrow1.1.png);
+display: inline-block;
+}
+a:hover{
+
+}
+
+img{
+    margin-right: 400px;
+    margin-left: 400px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
