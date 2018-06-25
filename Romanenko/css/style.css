@@ -1,20 +1,20 @@
 
 .right {
-    background-image: url(../Gallery/img/spritesheet_r.png);
+    background-image: url(../Gallery/img/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
     width: 128px;
     height: 128px;
-    background-position: -5px -5px;
+    background-position: -281px -5px;
 }
 
 .right:hover {
     width: 128px;
     height: 128px;
-    background-position: -143px -5px;
+    background-position: -419px -5px;
 }
 .left {
-    background-image: url(../Gallery/img/spritesheet_l.png);
+    background-image: url(../Gallery/img/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
     width: 128px;
