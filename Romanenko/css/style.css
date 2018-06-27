@@ -1,3 +1,27 @@
+/* NAV */
+
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li:after{
+    content:url(../gallery/img/on.png);
+}
+nav ul li:last-child:after{
+    content:none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+/* ARROWS */
 
 .right {
     background-image: url(../Gallery/img/spritesheet.png);
