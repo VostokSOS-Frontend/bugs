@@ -1,24 +1,28 @@
-.shadow{
+
+/* NAV */
+
+nav{
     text-align: center;
-    font-size: 50px;
-    text-shadow: -5px 5px 0 green, 5px -5px 0 rgb(238, 20, 20),0 0 5px black;
 }
-.box{
-    width:100px;
-    height: 100px;
-    background-color: rgb(226, 153, 43);
-    overflow: auto;
+nav ul{
+    list-style-type: none;
 }
-.box::-webkit-scrollbar{
-    width: 5px;
+nav ul li{
+    display: inline-block;
 }
-.box::-webkit-scrollbar-track{
-    background-color: blueviolet;
+nav ul li:after{
+    content:url(../gallery/img/on.png);
 }
-.box::-webkit-scrollbar-thumb{
-    background-color: rgb(226, 43, 98);
+nav ul li:last-child:after{
+    content:none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
+
+/* ARROWS */
 
 .right {
     background-image: url(../Gallery/img/spritesheet.png);
@@ -48,21 +52,4 @@
     width: 128px;
     height: 128px;
     background-position: -143px -5px;
-}
-
-
-.team-avaj{
-    background-color: aqua;
-}
-.team-bugs{
-    background-color: rgb(226, 195, 19);
-}
-.team-dragneel{
-    background-color: green;
-}
-table{
-    border-collapse: collapse;
-}
-table td,table th{
-    border: solid 1px black;
 }
