@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-.shadow{
-    text-align: center;
-    font-size: 50px;
-    text-shadow: -5px 5px 0 green, 5px -5px 0 rgb(238, 20, 20),0 0 5px black;
-}
-.box{
-    width:100px;
-    height: 100px;
-    background-color: rgb(226, 153, 43);
-    overflow: auto;
-}
-.box::-webkit-scrollbar{
-    width: 5px;
-}
-.box::-webkit-scrollbar-track{
-    background-color: blueviolet;
-}
-.box::-webkit-scrollbar-thumb{
-    background-color: rgb(226, 43, 98);
-}
-=======
 /* NAV */
 
 nav{
@@ -45,7 +23,6 @@ nav ul li a{
 
 /* ARROWS */
 
->>>>>>> 4a0d15232f9893558ee953a9f93906d3806a025e
 .right {
     background-image: url(../Gallery/img/spritesheet.png);
     background-repeat: no-repeat;
