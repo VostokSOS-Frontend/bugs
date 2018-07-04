@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7362a312a92a15e8d0208f371fb6ab779d412f16
 /* NAV */
 
 nav{
@@ -51,21 +55,4 @@ nav ul li a{
     width: 128px;
     height: 128px;
     background-position: -143px -5px;
-}
-
-
-.team-avaj{
-    background-color: aqua;
-}
-.team-bugs{
-    background-color: rgb(226, 195, 19);
-}
-.team-dragneel{
-    background-color: green;
-}
-table{
-    border-collapse: collapse;
-}
-table td,table th{
-    border: solid 1px black;
 }

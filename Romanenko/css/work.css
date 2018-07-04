@@ -1,0 +1,42 @@
+.shadow{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -5px 5px 0 green, 5px -5px 0 rgb(238, 20, 20),0 0 5px black;
+}
+
+
+/* scrollbar */
+.box{
+    width:100px;
+    height: 100px;
+    background-color: rgb(226, 153, 43);
+    overflow: auto;
+}
+.box::-webkit-scrollbar{
+    width: 5px;
+}
+.box::-webkit-scrollbar-track{
+    background-color: blueviolet;
+}
+.box::-webkit-scrollbar-thumb{
+    background-color: rgb(226, 43, 98);
+}
+/* END scrollbar */
+
+/* table */
+.team-avaj{
+    background-color: aqua;
+}
+.team-bugs{
+    background-color: rgb(226, 195, 19);
+}
+.team-dragneel{
+    background-color: green;
+}
+table{
+    border-collapse: collapse;
+}
+table td,table th{
+    border: solid 1px black;
+}
+/* END table */
