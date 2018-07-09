@@ -1,0 +1,58 @@
+body{
+    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png");
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.box{
+    position: relative;
+    top:100px;
+    padding-top: 400px;
+    margin:auto;
+    width: 500px;
+    height: 315px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 100px black;
+}
+img {
+    position: absolute;
+    top: -70px;
+    left: -3px;
+}
+form{
+position: relative;
+bottom: 120px;
+margin: auto;
+width: 410px;
+}
+span{
+    font-size:1.5em;
+    margin-top:10px;
+}
+.first{
+    width: 90px;
+}
+input[type="text"]{
+    width: 400px;
+}
+input{
+    margin-bottom: 20px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+select{
+    width: 80px;
+    margin-bottom: 20px;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+button{
+    font-size:1.6em;
+    height: 70px;
+    width: 400px;
+    background-color:rgb(78, 78, 216);
+    color:white;
+    border:none;
+    border-radius: 5px;
+}

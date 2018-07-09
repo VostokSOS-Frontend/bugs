@@ -43,3 +43,31 @@ table td,table th{
     border: solid 1px black;
 }
 /* END table */
+
+.menu{
+    display:none;
+}
+.item:hover .menu{
+    display:block;
+}
+.menu-item{
+    display: none;
+}
+.menu>li:hover .menu-item{
+    display:block
+}
+
+/* FLEX */
+
+.flex-item{
+    background-color: blueviolet;
+    margin:50px;
+    padding:50px;
+}
+
+.flex{
+    display:flex;
+}
+.flex-item1,.flex-item3{
+    flex-grow: 1;
+}
