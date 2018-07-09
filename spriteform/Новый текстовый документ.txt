@@ -1,0 +1,72 @@
+unchecked sofe
+x
+.bg-if_1_Seater_1245497 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -158px -10px;
+}
+checked sofa
+x
+.bg-if_2_Seater_1245498 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -10px -306px;
+}
+checked biker
+x
+.bg-if_biker_1055113 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -10px -158px;
+}
+unchecked circle
+x
+.bg-if_button_shape_oval_352899 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -158px -158px;
+}
+unchecked biker
+x
+.bg-if_ic_directions_bike_48px_352313 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -306px -10px;
+}
+checked circle
+x
+.bg-if_icon_ios7_circle_filled_211716 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -306px -158px;
+}
+unchecked ok
+x
+.bg-if_ok_173061 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -10px -10px;
+}
+checked male
+x
+.bg-if_users_9_984126 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -158px -306px;
+}
+unchecked female
+x
+.bg-if_users_14_984106 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -306px -306px;
+}
+checked ok
+x
+.bg-if_ok_sign_173063 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -454px -10px;
+}
+unchecked male
+x
+.bg-if_users_10_984119 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -454px -158px;
+}
+checked female
+x
+.bg-if_users_12_984125 {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -454px -306px;
+}
