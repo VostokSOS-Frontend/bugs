@@ -1,6 +1,6 @@
-body{
-    cursor: url('../image/Pringles.cur'), auto;
-}
+/* body{
+    cursor: url('../image/paper.cur'), auto;
+} */
 .shadow{
     text-align: center;
     font-size: 50px;
@@ -43,3 +43,59 @@ table td,table th{
     border: solid 1px black;
 }
 /* END table */
+
+/* .block1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.block2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    top:25px;
+    left:25px;
+}
+.block3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top:50px;
+    left:50px;
+} */
+
+/* FORM */
+form{
+    display:flex;
+    justify-content: center;
+}
+form input[type="submit"],input[type="reset"]{
+    color:red;
+    border-color: red;
+    margin-top:10px;
+}
+span{
+    display:inline-block;
+    width: 100px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+#user{
+    width:204px
+}
+#pass{
+    width:204px
+}
+form>fieldset{
+    border-color: blueviolet;
+    border-radius:15px;
+    background-color: rgb(233, 211, 253);
+}
+/*END FORM */

@@ -7,6 +7,53 @@
 </head>
 <body>
 
+    <form action="">
+        <fieldset>
+        <legend>Регистрация пользователя</legend>
+        <span>Login</span>
+        <input type="text" id="user" autofocus><br>
+        <span>Password</span>
+        <input type="password" id="pass"><br>
+        <span>BirthDate</span>
+        <input type="number" size="1" min="1" max="31" placeholder="Day">
+            <select size="1" name="month">
+                <option value="s1" selected>Month</option>
+                <option value="s2">jan</option>
+                <option value="s3">feb</option>
+                <option value="s4">mar</option>
+            </select>
+            
+        <input type="number" size="1" min="1900" max="2000" placeholder="Year"><br>
+        <span>Sex</span>
+        <label>
+        <input type="radio"><span>Male</span>
+        <input type="radio"><span>Female</span><br>
+
+        <fieldset>
+        <legend>HousePets</legend>
+        <input type="checkbox" name="" id=""><span>Cat</span>
+        <input type="checkbox" name="" id=""><span>Dog</span><br>
+        <input type="checkbox" name="" id=""><span>Turtle</span>
+        <input type="checkbox" name="" id=""><span>Spider</span><br>
+        <input type="checkbox" name="" id=""><span>Hamster</span>
+        <input type="checkbox" name="" id=""><span>Horse</span>
+        </fieldset> <br>
+        <span>Avatar</span>
+        <input type="file" name=""><br>
+
+        <span>Bio</span><textarea name="" id="" cols="30" rows="5"></textarea><br>
+
+        <div class="button">
+        <input type="reset" value="Cancel">
+        <input type="submit" value="Submit">
+        </div>
+        </fieldset>
+    </form>
+
+    <div class="block1"></div>
+    <div class="block2"></div>
+    <div class="block3"></div>
+
         <img src="image/ploskie-figury.jpg" alt="" usemap="#map" />
         <map name="map">
             <area shape="circle" coords="135, 131, 73" nohref>
@@ -16,6 +63,7 @@
         </map>
 
     <iframe src="gallery/gallery.html" width="100" height="100" frameborder="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d5080.039136006351!2d30.4903354!3d50.4593603!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x40d4ce7976bee27b%3A0x1d3e315c9ebba01c!2z0JvRg9C60YzRj9C90L7QstGB0LrQsNGPLCDQmtC40LXQsiwg0LPQvtGA0L7QtCDQmtC40LXQsiwg0KPQutGA0LDQuNC90LA!3m2!1d50.462416999999995!2d30.4818027!4m3!3m2!1d50.459352599999995!2d30.4965838!5e0!3m2!1sru!2sua!4v1530722716485" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <p class="shadow">HELLO</p>
 
@@ -158,5 +206,6 @@
         </tr>
         </tbody>
     </table>
+
 </body>
 </html>
