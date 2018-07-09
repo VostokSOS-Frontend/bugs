@@ -44,7 +44,6 @@ table td,table th{
 }
 /* END table */
 
-<<<<<<< HEAD
 /* .block1{
     height: 100px;
     width: 100px;
@@ -71,61 +70,71 @@ table td,table th{
 } */
 
 /* FORM */
-form{
+.formm{
     display:flex;
     justify-content: center;
 }
-form input[type="submit"],input[type="reset"]{
+.formm input[type="submit"],input[type="reset"]{
     color:red;
     border-color: red;
     margin-top:10px;
 }
-span{
+.formm span{
     display:inline-block;
     width: 100px;
 }
-.button{
+.formm .button{
     display: flex;
     flex-direction: column;
 }
-#user{
+.formm #user{
     width:204px
 }
-#pass{
+.formm #pass{
     width:204px
 }
-form>fieldset{
+ .formm>fieldset{
     border-color: blueviolet;
     border-radius:15px;
     background-color: rgb(233, 211, 253);
 }
 /*END FORM */
-=======
-.menu{
-    display:none;
-}
-.item:hover .menu{
-    display:block;
-}
-.menu-item{
-    display: none;
-}
-.menu>li:hover .menu-item{
-    display:block
-}
 
-/* FLEX */
-
-.flex-item{
-    background-color: blueviolet;
-    margin:50px;
-    padding:50px;
+/* SUPER FORM */
+.formmm input[type="checkbox"]{
+    opacity:0;
+    display:inline-block;
 }
-
-.flex{
-    display:flex;
+.container_f input ~ .custom-mark{
+    background-image: url(../image/icon/checkbox.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-position: -5px -5px;
 }
-.flex-item1,.flex-item3{
-    flex-grow: 1;
+.container_f input:checked ~ .custom-mark{
+    background-image: url(../image/icon/checkbox.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-position: -63px -5px;
 }
->>>>>>> 9722c2190dbc310d2a4eeecd9a568ab93ea436f1
+.container_m input ~ .custom-mark{
+    background-image: url(../image/icon/checkbox.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-position: -121px -5px;
+}
+.container_m input:checked ~ .custom-mark{
+    background-image: url(../image/icon/checkbox.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-position: -179px -5px;
+}
+/* END SUPER FORM */

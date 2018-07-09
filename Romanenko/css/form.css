@@ -56,3 +56,20 @@ button{
     border:none;
     border-radius: 5px;
 }
+.fa-comment-dots{
+    color:green;
+}
+.popover{
+    position:absolute;
+    top:105px;
+    left:90px;
+    border:1px solid green;
+    background-color:rgb(104, 199, 104);
+    color:white;
+    display: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.fa-comment-dots:hover .popover{
+    display:block;
+}
