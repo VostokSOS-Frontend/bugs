@@ -44,6 +44,7 @@ table td,table th{
 }
 /* END table */
 
+<<<<<<< HEAD
 /* .block1{
     height: 100px;
     width: 100px;
@@ -99,3 +100,32 @@ form>fieldset{
     background-color: rgb(233, 211, 253);
 }
 /*END FORM */
+=======
+.menu{
+    display:none;
+}
+.item:hover .menu{
+    display:block;
+}
+.menu-item{
+    display: none;
+}
+.menu>li:hover .menu-item{
+    display:block
+}
+
+/* FLEX */
+
+.flex-item{
+    background-color: blueviolet;
+    margin:50px;
+    padding:50px;
+}
+
+.flex{
+    display:flex;
+}
+.flex-item1,.flex-item3{
+    flex-grow: 1;
+}
+>>>>>>> 9722c2190dbc310d2a4eeecd9a568ab93ea436f1
