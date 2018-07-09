@@ -95,25 +95,28 @@ a{
 /*Переходы на соседние странички*/
 .left{
     display: inline-block;
-    background-image: url(img/left.png);
-    width: 100px;
-    height: 100px;
+
+    width: 322px; height: 322px;
+    background: url(img/css_sprites.png) -352px -10px;
+
     background-size: 100px;
     margin-left: 28%;
 }
 
 .right{
     display: inline-block;
-    background-image: url(img/right.png);
-    width: 100px;
-    height: 100px;
+    width: 322px; height: 322px;
+    background: url(img/css_sprites.png) -10px -352px;
     background-size: 100px;
 }
 
 .left:hover{
-    background-image: url(img/left_circle.png);
+    width: 322px; height: 322px;
+    background: url(img/css_sprites.png) -10px -10px;
+
 }
 
 .right:hover{
-    background-image: url(img/right_circle.png);
+    width: 322px; height: 322px;
+    background: url(img/css_sprites.png) -352px -352px;
 }

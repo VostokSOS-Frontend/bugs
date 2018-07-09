@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+        <div class="box">
+        <img src="visa.png" alt="">
+        <form action="">
+            <span>CARD NUMBER</span><br>
+            <input class="first" type="number" size="1" placeholder="1234" min="1" max="9999">
+            <input class="first" type="number" size="1" placeholder="5678" min="1" max="9999">
+            <input class="first" type="number" size="1" placeholder="9000" min="1" max="9999">
+            <input class="first" type="number" size="1" placeholder="4321" min="1" max="9999">
+            <br>
+            <span>CARD HOLDER</span><br>
+            <input type="text" placeholder="Name"><br>
+            <span>CARD NUMBER</span><br>
+            <select name="month">
+                <option selected>MM</option>
+                <option value="m1">January</option>
+                <option value="m2">February</option> 
+                <option value="m3">March</option> 
+                <option value="m4">April</option> 
+                <option value="m5">May</option> 
+                <option value="m6">June</option> 
+                <option value="m7">July</option> 
+                <option value="m8">August</option> 
+                <option value="m9">September</option> 
+                <option value="m10">October</option> 
+                <option value="m11">November</option> 
+                <option value="m12">December</option>  
+              </select>
+              <select>
+                  <option selected>YYYY</option>
+                  <option value="y1">2014</option>
+                  <option value="y2">2015</option>
+                  <option value="y3">2016</option>
+                  <option value="y4">2017</option>
+              </select><br>
+            <span>CCV</span><br>
+            <input type="number" size="1" placeholder="123" min="1" max="999"><br>
+            <button class="form__btn submit">SUBMIT PAYMENT <i class="fa fa-lock"></i></button>
+        </form>
+        </div>
+</body>
+</html>

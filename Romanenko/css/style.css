@@ -1,24 +1,54 @@
-.right{
-    background-image: url(../Gallery/img/right.png);
-    width: 128px;
-    height: 128px;
-    margin-top:400px;
-    float:right;
+/* NAV */
+
+nav{
+    text-align: center;
 }
-.right:hover{
-    background-image: url(../Gallery/img/right_h.png);
-    width: 128px;
-    height: 128px;
+nav ul{
+    list-style-type: none;
 }
-.left{
-    background-image: url(../Gallery/img/left.png);
-    width: 128px;
-    height: 128px;
-    margin-top:400px;
-    float:left;
+nav ul li{
+    display: inline-block;
 }
-.left:hover{
-    background-image: url(../Gallery/img/left_h.png);
+nav ul li:after{
+    content:url(../gallery/img/on.png);
+}
+nav ul li:last-child:after{
+    content:none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+/* ARROWS */
+
+.right {
+    background-image: url(../Gallery/img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
     width: 128px;
     height: 128px;
+    background-position: -281px -5px;
+}
+
+.right:hover {
+    width: 128px;
+    height: 128px;
+    background-position: -419px -5px;
+
+}
+.left {
+    background-image: url(../Gallery/img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 128px;
+    background-position: -5px -5px;
+}
+
+.left:hover {
+    width: 128px;
+    height: 128px;
+    background-position: -143px -5px;
 }
