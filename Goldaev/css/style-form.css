@@ -3,7 +3,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.box{
+.content{
     position: relative;
     top:25px;
     padding-top: 400px;
@@ -30,7 +30,7 @@ span{
     font-size:1.5em;
     margin-top:10px;
 }
-.first{
+.num{
     width: 90px;
 }
 input[type="text"]{
@@ -62,3 +62,4 @@ button{
 .submit{
     border-radius: 50px 50px 50px 50px;
 }
+
