@@ -1,0 +1,10 @@
+
+male {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -158px -306px;
+}
+
+female {
+    width: 128px; height: 128px;
+    background: url('css_sprites.png') -306px -306px;
+}

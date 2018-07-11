@@ -1,7 +1,6 @@
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background: url(http://oboi-na-stol.com/pub/original_images/oboi-na-stol.com-166486-peyzazhi-trava-kapli-minimalizm-priroda-zelen.jpg);  
+    background-color: black;
+    color:#ffffff
     }
    
    p {
@@ -23,14 +22,7 @@ body {
             text-align: center;
             font-size: 30px;
         }
-        
-=======
-    background-color: rgb(21, 4, 43);
-=======
-    background-color: rgb(23, 0, 53);
->>>>>>> e122f2549232c3238d5060637b43184187054a77
-    color: white;
-}
+
 p {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 23px;
@@ -49,9 +41,7 @@ ol {
     font-size: 23px;
     margin-left: 50px;
     margin-right: 50px;
-}
-img {
-    padding: 30px;
+    color: #ffffff;
 }
 .creators {
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,8 +50,13 @@ color: rgb(255, 255, 121);
 text-align: center;
 margin-top: 100px;
 margin-left: 50px;
-margin-right: 50px;
-margin-bottom: 75px;
+}
+.img {
+    padding: 30px;
+   margin-right: 50px;
+   margin-bottom: 75px;
+   margin-left: 20px;
+   
 }
 .top{
     text-align: center;
@@ -93,18 +88,10 @@ margin-bottom: 75px;
 
 }
 .ok {
-    border: 3px solid  rgb(255, 255, 121);
-    padding: 5px;
-    width:100%;
-    height: 40px;
-    background-image: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=350);
-    display: inline-block;
+   
+  
 }
-.ok:hover{
-    width:100%;
-    height: 40px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/300px-Bachalpsee_reflection.jpg)
-}
+
 .round{
     border-radius: 200px;
 
@@ -124,9 +111,7 @@ margin-bottom: 75px;
     border-radius: 100px;
     opacity: 0.75;
 }
-<<<<<<< HEAD
->>>>>>> 0be05cb44d51f39baa593dc73e99ca21ca8c9caf
-=======
+
 .top:hover{
     color: coral;
 }
@@ -137,4 +122,16 @@ margin-bottom: 75px;
     background-color: pink;
     color: lime;
 }
->>>>>>> e122f2549232c3238d5060637b43184187054a77
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

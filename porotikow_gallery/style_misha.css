@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(53, 4, 99);
 }
 .a{
 margin-left: 150px;
@@ -17,16 +17,98 @@ h1{
     text-align: center;
 }
 .right{
-
-width: 50px; height: 50px;
-    background: url(image_bugs/spritesheet.png) -542px -542px;
-  
+    width: 64px; height: 64px;
+    background: url(image.bugs/arrow_right1.png);
+    display: inline-block;
+    background-size: 64px;
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
 
 }
 .right:hover{
-    width: 50px; height: 50px;
-    background: url(image_bugs/spritesheet.png) -542px -10px;
-    
+    width: 64px; height: 64px;
+    background: url(image.bugs/arrow_right1.1.png) ;
+    display: inline-block;
+    background-size: 64px;
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+
 
 }
+.menu{
+    width: 65px; height: 65px;
+    background: url(image.bugs/menu.png) ;
+    display: inline-block;
+    background-size: 64px;
+    float: left; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
 
+
+
+
+}
+.back{
+    width: 65px; height: 65px;
+    background: url(image.bugs/back.png) ;
+    display: inline-block;
+    background-size: 64px;
+    float: left; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+
+
+}
+.left{
+    width: 64px; height: 64px;
+    background: url(image.bugs/arrow_left1.png);
+    display: inline-block;
+    background-size: 64px;
+    float: left; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+
+}
+.left:hover{
+    width: 64px; height: 64px;
+    background: url(image.bugs/arrow_left1.1.png) ;
+    display: inline-block;
+    background-size: 64px;
+    float: left; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+
+
+}
+.right1{
+    width: 64px; height: 64px;
+    background: url(image.bugs/arrow_right1.png);
+    display: inline-block;
+    background-size: 64px;
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+
+}
+.right1:hover{
+    width: 64px; height: 64px;
+    background: url(image.bugs/arrow_right1.1.png) ;
+    display: inline-block;
+    background-size: 64px;
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+
+
+}
+.left1{
+    width: 64px; height: 64px;
+    background: url(image.bugs/arrow_left1.png);
+    display: inline-block;
+    background-size: 64px;
+    float: left; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+
+}
+.left1:hover{
+    width: 64px; height: 64px;
+    background: url(image.bugs/arrow_left1.1.png) ;
+    display: inline-block;
+    background-size: 64px;
+    float: left; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+}
