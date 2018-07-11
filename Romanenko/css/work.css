@@ -1,6 +1,7 @@
 /* body{
     cursor: url('../image/paper.cur'), auto;
 } */
+
 .shadow{
     text-align: center;
     font-size: 50px;
@@ -101,40 +102,105 @@ table td,table th{
 /*END FORM */
 
 /* SUPER FORM */
+.order{
+    display: inline-block;
+    width: 150px; ;
+}
+.gen .position-center{
+    position: relative;
+    top:-12px;
+}
+.fam .position-center{
+    position: relative;
+    top:-20px;
+}
+.act .position-center{
+    position: relative;
+    top:-20px;
+}
+
+.formmm {
+    border:solid black 1px; 
+    padding: 30px;
+    width: 410px;
+    margin:100px auto;
+    border-radius: 20px;
+    background-color: rgb(245, 164, 58);
+    box-shadow: 10px 10px 50px red;
+}
+
 .formmm input[type="checkbox"]{
     opacity:0;
-    display:inline-block;
+    position: absolute;
 }
-.container_f input ~ .custom-mark{
+.formmm label{
+    display: inline-block;
+}
+.gen .container_f input ~ .custom-mark{
     background-image: url(../image/icon/checkbox.png);
     background-repeat: no-repeat;
-    display: block;
+    display: inline-block;
     width: 48px;
     height: 48px;
     background-position: -5px -5px;
 }
-.container_f input:checked ~ .custom-mark{
+.gen .container_f input:checked ~ .custom-mark{
     background-image: url(../image/icon/checkbox.png);
     background-repeat: no-repeat;
-    display: block;
+    display: inline-block;
     width: 48px;
     height: 48px;
     background-position: -63px -5px;
 }
-.container_m input ~ .custom-mark{
+.gen .container_m input ~ .custom-mark{
     background-image: url(../image/icon/checkbox.png);
     background-repeat: no-repeat;
-    display: block;
+    display: inline-block;
     width: 48px;
     height: 48px;
     background-position: -121px -5px;
 }
-.container_m input:checked ~ .custom-mark{
+.gen .container_m input:checked ~ .custom-mark{
     background-image: url(../image/icon/checkbox.png);
     background-repeat: no-repeat;
-    display: block;
+    display: inline-block;
     width: 48px;
     height: 48px;
     background-position: -179px -5px;
+}
+
+.fam .container_fam input ~ .custom-mark{
+    background-image: url(../image/icon/checkbox1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-position: -63px -5px;
+}
+
+.fam .container_fam input:checked ~ .custom-mark{
+        background-image: url(../image/icon/checkbox1.png);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        background-position: -5px -5px;
+}
+
+.act .container_fam input ~ .custom-mark{
+    background-image: url(../image/icon/checkbox2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: -5px -5px;
+}
+.act .container_fam input:checked ~ .custom-mark{
+    background-image: url(../image/icon/checkbox2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: -63px -5px;
 }
 /* END SUPER FORM */
