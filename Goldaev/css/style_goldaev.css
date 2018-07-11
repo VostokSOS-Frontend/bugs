@@ -1,0 +1,68 @@
+h3, h1, p, li{
+    text-align: center;
+    font-size: 140%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: white;
+    list-style-type: none;
+}
+
+body{
+    /*cursor: url("../image/gold.cur"), auto;*/
+    background: url(../image/Bottom-of-the-Sea-Wallpaper-ocean-intrigued-37899366-1920-1200.jpg), scroll, no-repeat;
+    background-size: 100% 2000px;
+}
+
+.up{
+    overflow: hidden;
+    position: fixed;
+
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+
+    left: 0;
+    width: 5%;
+}
+
+.up:hover{
+    filter: alpha(Opacity=100);
+    opacity: 1;
+}
+
+ul.info {
+    margin-left: 35%;
+    padding: 4px;
+}
+ul.info li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.another {
+    margin-left: 20px;
+    width: 250px;	height: 200px; /* Размеры */
+    border-radius: 10px; /* Радиус скругления */
+}
+
+.menu2{
+    margin-left: 12%;
+}
+
+.picture1{
+    display: inline-block;
+    background-image: url("../image/img1.1.jpg");
+    width: 250px;	height: 200px; /* Размеры */
+    border-radius: 10px; /* Радиус скругления */
+}
+
+.another:hover{
+    background-image: url("../image/33.jpg");
+}
+
+.fish{
+    cursor: none;
+    margin-left: 42%;
+    font-size: 140%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: white;
+    list-style-type: none;
+}
