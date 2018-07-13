@@ -1,0 +1,22 @@
+img{
+    width:1000px;
+    height:600px;
+}
+.first{
+    clip: rect(1100px, 1000px, 0px, 0px);
+}
+.second{
+    clip: rect(1100px, 1000px, 0px, 0px);
+}
+.third{
+    clip: rect(1100px, 1000px, 0px, 0px);
+}
+.fourth{
+    clip: rect(1100px, 1000px, 0px, 0px);
+}
+.fifth{
+    clip: rect(1100px, 1000px, 0px, 0px);
+}
+.a{
+    clip: rect(1100px, 1000px, 0px, 0px);
+}
