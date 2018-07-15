@@ -2,49 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ФОРМА КАРТЫ</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <title>Document</title>
     <link rel="stylesheet" href="./erform.css">
 </head>
 <body>
-        <div class="box">
-        <img src="visa.png" alt="creditcard">
-        <form action="">
-            <span>НОМЕР КАРТЫ</span><br>
-            <input class="first" type="number" size="1" placeholder="4012" min="0" max="9999" maxlength="4">
-            <input class="first" type="number" size="1" placeholder="6666" min="0" max="9999" maxlength="4">
-            <input class="first" type="number" size="1" placeholder="6666" min="0" max="9999" maxlength="4">
-            <input class="first" type="number" size="1" placeholder="6666" min="0" max="9999" maxlength="4">
-            <br>
-            <span>ВЛАДЕЛЕЦ КАРТЫ</span><br>
-            <input type="text" placeholder="Name"><br>
-            <span>ДАТА</span><br>
-            <select name="month">
-                <option selected>MM</option>
-                <option value="m1">Январь</option>
-                <option value="m2">Февраль</option> 
-                <option value="m3">Март</option> 
-                <option value="m4">Апрель</option> 
-                <option value="m5">Май</option> 
-                <option value="m6">Июнь</option> 
-                <option value="m7">Июль</option> 
-                <option value="m8">Август</option> 
-                <option value="m9">Сентябрь</option> 
-                <option value="m10">Октябрь</option> 
-                <option value="m11">Ноябрь</option> 
-                <option value="m12">Декабрь</option>  
-              </select>
-              <select>
-                  <option selected>YY</option>
-                  <option value="y1">2014</option>
-                  <option value="y2">2015</option>
-                  <option value="y3">2016</option>
-                  <option value="y4">2017</option>
-              </select><br>
-            <span>CCV КОД</span><br>
-            <input type="number" size="1" placeholder="123" min="1" max="999"><br>
-            <button class="form__btn submit">SUBMIT PAYMENT <i class="fa fa-lock"></i></button>
-        </form>
+
+    <form class="formmm" action="">
+        <div class="gen">
+        <span class="order position-center">YOUR GENDER:</span>
+        <label class="container_f">
+            <input type="checkbox" name="" id="">
+            <span class="custom-mark"></span>
+            <span class="position-center">FEMALE</span>
+        </label>
+        <label class="container_m">
+            <input type="checkbox" name="" id="">
+            <span class="custom-mark"></span>
+            <span class="position-center">MALE</span>
+        </label><br>
         </div>
+
+        <div class="fam">
+        <span class="order position-center">FAMILY:</span>
+        <label class="container_fam">
+            <input type="checkbox" name="" id="">
+            <span class="custom-mark"></span>
+            <span class="position-center">PARENTS</span>
+        </label>
+        <label class="container_fam">
+            <input type="checkbox" name="" id="">
+            <span class="custom-mark"></span>
+            <span class="position-center">SIBLINGS</span>
+        </label><br>
+        </div>
+
+        <div class="act">
+            <span class="order position-center">FAMILY:</span>
+        <label class="container_fam">
+            <input type="checkbox" name="" id="">
+            <span class="custom-mark"></span>
+            <span class="position-center">PARENTS</span>
+        </label>
+        <label class="container_fam">
+            <input type="checkbox" name="" id="">
+            <span class="custom-mark"></span>
+            <span class="position-center">SIBLINGS</span>
+        </label><br>
+        </div>
+    </form>
+
+    
+
+    <div class="block1"></div>
+    <div class="block2"></div>
+    
+
+    <p class="shadow">HELLO</p>
 </body>
 </html>
