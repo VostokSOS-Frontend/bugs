@@ -1,0 +1,80 @@
+body{
+    background-color: #f0f2f3;
+    font-family: sans-serif;
+}
+form{
+    border:#b2b5b6 solid 1px;
+    padding:15px 40px 25px;
+    background-color: #fff;
+    width: 300px;
+    margin:100px auto;
+    position: relative;
+}
+input , a{
+    display: block;
+}
+span{
+    display:none;
+}
+input{
+    padding-bottom:10px;
+    font-size: 20px;
+    border:none;
+    border-bottom: #b2b5b6 solid 2px;
+    outline:none;
+    margin-bottom: 40px;
+    width: 300px;
+}
+p{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#E52B50;
+    font-weight: bold;
+    border-left: #E52B50 5px solid;
+    padding-left: 35px;
+    position: relative;
+    left:-43px;
+}
+.btn1{
+    display: block;
+    padding: 12px 20px;
+    width: 165px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#dbdddd;
+    background-color: #fff;
+    border: #dbdddd solid 1px;
+    margin:0 auto 40px auto;
+    cursor:pointer;
+}
+.btn1:hover{
+    border: #E52B50 solid 1px;
+    transition: 0.5s;
+}
+a{
+    color:#dbdddd;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 15px
+}
+a:hover{
+    color: #E52B50;
+    transition: 0.5s;
+}
+input:focus{
+    border-bottom:#E52B50 solid 2px;
+    transition: 0.5s;
+}
+input:focus::placeholder{
+    color:#fff;
+}
+input[type="text"]:focus +span{
+display:block;
+position: absolute;
+top:130px;
+}
+input[type="password"]:focus +span{
+display:block;
+position: absolute;
+top:204px;
+}
