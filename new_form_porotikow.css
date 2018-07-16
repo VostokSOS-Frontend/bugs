@@ -1,0 +1,219 @@
+body{
+    background-image: url(./69670453-minimal-wallpapers.jpg)
+}
+.shadow{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -5px 5px 0 green, 5px -5px 0 rgb(238, 20, 20),0 0 5px black;
+}
+
+
+/* scrollbar */
+.box{
+    width:100px;
+    height: 100px;
+    background-color: rgb(226, 153, 43);
+    overflow: auto;
+}
+.box::-webkit-scrollbar{
+    width: 5px;
+}
+.box::-webkit-scrollbar-track{
+    background-color: blueviolet;
+}
+.box::-webkit-scrollbar-thumb{
+    background-color: rgb(226, 43, 98);
+}
+/* END scrollbar */
+
+/* table */
+
+table{
+    border-collapse: collapse;
+}
+table td,table th{
+    border: solid 1px black;
+}
+/* END table */
+
+/* .block1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.block2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    top:25px;
+    left:25px;
+}
+.block3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top:50px;
+    left:50px;
+} */
+
+/* FORM */
+.formm{
+    display:flex;
+    justify-content: center;
+}
+.formm input[type="submit"],input[type="reset"]{
+    color:red;
+    border-color: red;
+    margin-top:10px;
+}
+.formm span{
+    display:inline-block;
+    width: 100px;
+}
+.formm .button{
+    display: flex;
+    flex-direction: column;
+}
+.formm #user{
+    width:204px
+}
+.formm #pass{
+    width:204px
+}
+ .formm>fieldset{
+    border-color: blueviolet;
+    border-radius:15px;
+    background-color: rgb(233, 211, 253);
+}
+/*END FORM */
+
+/* SUPER FORM */
+.order{
+    display: inline-block;
+    width: 150px; ;
+}
+.gen .position-center{
+    position: relative;
+    top:-12px;
+}
+.fam .position-center{
+    position: relative;
+    top:-20px;
+}
+.act .position-center{
+    position: relative;
+    top:-20px;
+}
+
+.formmm {
+    border:solid black 1px; 
+    padding: 30px;
+    width: 410px;
+    margin:100px auto;
+    border-radius: 20px;
+    background-color: rgb(82, 75, 143);
+    
+}
+
+.formmm input[type="checkbox"]{
+    opacity:0;
+    position: absolute;
+}
+.formmm label{
+    display: inline-block;
+}
+.gen .container_f input ~ .custom-mark{
+    background-image: url(if_users-14_984106.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: url('css_sprites.png') -306px -306px;
+}
+.gen .container_f input:checked ~ .custom-mark{
+    background-image: url(female.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: url('css_sprites.png') -454px -306px;
+}
+.gen .container_m input ~ .custom-mark{
+    background-image: url(if_users-10_984119.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: url('css_sprites.png') -454px -158px;
+}
+.gen .container_m input:checked ~ .custom-mark{
+    background-image: url(male.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 128px; 
+    height: 128px;
+    background: url('css_sprites.png') -158px -306px;
+}
+
+.fam .container_fam input ~ .custom-mark{
+    background-image: url(if_button_shape_oval_352899.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: url('css_sprites.png') -158px -158px;
+}
+
+.fam .container_fam input:checked ~ .custom-mark{
+        background-image: url(if_icon-ios7-circle-filled_211716.png);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 128px; 
+        height: 128px;
+    background: url('css_sprites.png') -306px -158px;
+}
+
+.act .container_fam input ~ .custom-mark{
+    background-image: url(if_ok_173061.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 128px; 
+    height: 128px;
+    background: url('css_sprites.png') -10px -10px;
+}
+.act .container_fam input:checked ~ .custom-mark{
+    background-image: url(if_ok-sign_173063.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 128px; 
+    height: 128px;
+    background: url('css_sprites.png') -454px -10px;
+}
+.first{
+    position: absolute; /* Абсолютное позиционирование */
+    width: 200px; /* Ширина блока */
+    
+    border: 1px solid black; /* Параметры рамки */
+    padding: 10px; 
+    clip: rect(40px, auto, auto, 40px);
+}
+.a{
+    clip: inherit;
+}
+.b{
+    clip: inherit;
+}
+.c{
+    clip: inherit;
+}
+.d{
+    clip: inherit;
+}
+.e{
+    clip: inherit;
+}
