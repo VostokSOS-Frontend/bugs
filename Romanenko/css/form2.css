@@ -2,13 +2,25 @@ body{
     background-color: #f0f2f3;
     font-family: sans-serif;
 }
+.line{
+    width: 365px;
+    height: 7px;
+    border:#b2b5b6 solid 1px;
+    border-bottom: none;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin:auto;
+    margin-top: 150px;   
+}
 form{
     border:#b2b5b6 solid 1px;
     padding:15px 40px 25px;
     background-color: #fff;
     width: 300px;
-    margin:100px auto;
+    margin: auto;
     position: relative;
+    border-radius:5px;
 }
 input , a{
     display: block;
@@ -22,8 +34,11 @@ input{
     border:none;
     border-bottom: #b2b5b6 solid 2px;
     outline:none;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     width: 300px;
+}
+input::placeholder{
+    color:#b2b5b6;
 }
 p{
     font-size: 40px;
@@ -34,6 +49,7 @@ p{
     padding-left: 35px;
     position: relative;
     left:-43px;
+    margin-bottom: 50px;
 }
 .btn1{
     display: block;
@@ -49,6 +65,7 @@ p{
 }
 .btn1:hover{
     border: #E52B50 solid 1px;
+    color:#E52B50;
     transition: 0.5s;
 }
 a{
@@ -72,9 +89,11 @@ input[type="text"]:focus +span{
 display:block;
 position: absolute;
 top:130px;
+color:#b2b5b6;
 }
 input[type="password"]:focus +span{
 display:block;
 position: absolute;
-top:204px;
+top:218px;
+color:#b2b5b6;
 }
