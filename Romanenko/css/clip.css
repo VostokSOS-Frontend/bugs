@@ -1,0 +1,49 @@
+img:first-child{
+    width: 1000px;
+    height: 1000px;
+    position: absolute; /* Абсолютное позиционирование */
+   clip: rect(auto,700px,auto ,400px); /* Прячем часть текста */
+}
+img:nth-child(2){
+    width: 1000px;
+    height: 1000px;
+    position: absolute; /* Абсолютное позиционирование */
+   clip: rect(auto,700px,auto ,400px); /* Прячем часть текста */
+   left:300px;
+}img:nth-child(3){
+    width: 1000px;
+    height: 1000px;
+    position: absolute; /* Абсолютное позиционирование */
+   clip: rect(auto,700px,auto ,400px); /* Прячем часть текста */
+   left:600px;
+}
+img:nth-child(4){
+    width: 1000px;
+    height: 1000px;
+    position: absolute; /* Абсолютное позиционирование */
+   clip: rect(auto,700px,auto ,400px); /* Прячем часть текста */
+   left:900px;
+}
+img:nth-child(5){
+    width: 1000px;
+    height: 1000px;
+    position: absolute; /* Абсолютное позиционирование */
+   clip: rect(auto,700px,auto ,400px); /* Прячем часть текста */
+   left:1200px;
+}
+
+img:active{
+    width: 1500px;
+    height: 1000px;
+    position: absolute; /* Абсолютное позиционирование */
+   clip: rect(auto,auto,auto,auto); /* Прячем часть текста */
+   z-index: 100;
+   left:400px;
+}
+.pic{
+    position: relative;
+    left:1500px;
+    top:500px;
+}
+
+
