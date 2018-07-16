@@ -1,22 +1,69 @@
-img{
-    width:1000px;
-    height:600px;
+.container {
+    width: 700px;
+    height: 700px;
+    position: relative;
 }
-.first{
-    clip: rect(1100px, 1000px, 0px, 0px);
+.image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
-.second{
-    clip: rect(1100px, 1000px, 0px, 0px);
+.image-one {
+    position: absolute;
+    clip: rect(0, 100px, 700px, 0);
+    background-image: url(1.jpg);
 }
-.third{
-    clip: rect(1100px, 1000px, 0px, 0px);
+.image-two {
+    position: absolute;
+    clip: rect(0, 100px, 700px, 0);
+    background-image: url(2.png);
+    left: 100px;
 }
-.fourth{
-    clip: rect(1100px, 1000px, 0px, 0px);
+.image-three {
+    position: absolute;
+    clip: rect(0, 100px, 700px, 0);
+    background-image: url(3.jpg);
+    left: 200px;
 }
-.fifth{
-    clip: rect(1100px, 1000px, 0px, 0px);
+.image-four {
+    position: absolute;
+    clip: rect(0, 100px, 700px, 0);
+    background-image: url(4.png);
+    left: 300px;
 }
-.a{
-    clip: rect(1100px, 1000px, 0px, 0px);
+.image-five {
+    position: absolute;
+    clip: rect(0, 100px, 700px, 0);
+    background-image: url(5.png);
+    left: 400px;   
+}
+.image-one:active{
+    background-image: url(1.jpg); 
+    position: absolute;
+    clip: rect(0px,700px,700px,0px); 
+    z-index: 100;
+}
+.image-two:active{
+    background-image: url(2.png);
+    position: absolute;
+    clip: rect(0px,700px,700px,0px); 
+    z-index: 100; 
+}
+.image-three:active{
+    background-image: url(3.jpg);
+    position: absolute;
+    clip: rect(0px,700px,700px,0px);  
+    z-index: 100;
+}
+.image-four:active{
+    background-image: url(4.png); 
+    position: absolute;
+    clip: rect(0px,700px,700px,0px);   
+    z-index: 100;
+}
+.image-five:active{
+    background-image: url(5.png); 
+    position: absolute;
+    clip: rect(0px,700px,700px,0px);
+    z-index: 100; 
 }
