@@ -56,3 +56,11 @@ button{
     border:none;
     border-radius: 5px;
 }
+.form__btn submit {
+    color: #0000d0; /* Цвет ссылок */
+    padding: 2px; /* Поля вокруг текста */ 
+   }
+   .form__btn submit:hover {
+    background: #786b59; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+   } 
