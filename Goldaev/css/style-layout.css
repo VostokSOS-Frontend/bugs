@@ -1,7 +1,7 @@
 body{
     margin: 0;
     /*background-image: url(../../image/2560x1600_px_Clear_Sky_lake_landscape_Low_Poly_minimalism_mountains_reflection-821999.jpg);*/
-    background-image: url(../../image/attachment.png);
+    background: url(../../image/attachment.png) no-repeat;
     background-size: 100%;
 
 }
@@ -47,7 +47,8 @@ li{
 }
 
 .reg{
-    margin-left: 470px;
+
+    margin-left: 30%;
 }
 
 .reg a:hover{
