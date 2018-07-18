@@ -41,8 +41,8 @@ a{
 
 }
 .user_nav li:last-child{
-    border: 1px solid transparent;
-    border-image: linear-gradient(to top, #3acfd5 0%, #3a4ed5 100%);
+    border: 1.5px solid transparent;
+    border-image: linear-gradient(to top, #3acfd5 0%, #3B77FF 100%);
     border-image-slice: 1;
 }
 .main_nav a{
