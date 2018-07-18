@@ -1,7 +1,9 @@
 body{
     margin: 0;
-    background-image: url(../../image/2560x1600_px_Clear_Sky_lake_landscape_Low_Poly_minimalism_mountains_reflection-821999.jpg);
-    background-size: 80%;
+    /*background-image: url(../../image/2560x1600_px_Clear_Sky_lake_landscape_Low_Poly_minimalism_mountains_reflection-821999.jpg);*/
+    background-image: url(../../image/attachment.png);
+    background-size: 100%;
+
 }
 
 ul{
@@ -9,11 +11,15 @@ ul{
     display: inline-block;
 }
 
+a{
+    letter-spacing: 3px;
+}
+
 li{
     list-style-type: none;
     display: inline-block;
     vertical-align: middle;
-    padding-left: 30px;
+    padding-left: 40px;
     color: #B5BDD0;
 }
 
@@ -41,7 +47,7 @@ li{
 }
 
 .reg{
-    margin-left: 550px;
+    margin-left: 470px;
 }
 
 .reg a:hover{
@@ -63,13 +69,14 @@ li{
 
 .text h1{
     font-weight: lighter;
+    line-height: 1.5;
     font-family: sans-serif;
     color: #506291;
 }
 
 .text p{
     font-family: sans-serif;
-    line-height: 1.5;
+    line-height: 2;
     color: #8495B4;
 }
 
@@ -84,6 +91,6 @@ li{
 
 .button a{
     background: linear-gradient(to right, #3B75FF, #63B4FF);
-    padding: 10px 15px 10px 15px;
-    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 7px;
 }
