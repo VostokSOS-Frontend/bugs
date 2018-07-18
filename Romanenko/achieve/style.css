@@ -1,0 +1,32 @@
+body{
+    background-image: url('bc.jpg');
+    background-size:80%;
+    margin:0;
+}
+ul{
+    display:inline-block;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding:5px 10px;
+    margin:5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.main_nav{
+    float:left;
+}
+.user_nav{
+    float: right;
+    margin-right: 50px;
+
+}
+.user_nav li:last-child{
+    border:black solid 1px;
+}
