@@ -171,18 +171,44 @@
 //      document.write(`<div style='position:absolute; top:${top}px; left:${left}px'>${str[i]}</div>`);
 //  }
 
- let str = prompt("Введите слово");
+//  let str = prompt("Введите слово");
 
- for(let i =0; i<str.length; i++){
+//  for(let i =0; i<str.length; i++){
      
-        document.write(`<p>`);
+//         document.write(`<p>`);
 
-        document.write(str[i]);
-        document.write(str[str.length-i-1]);
+//         document.write(str[i]);
+//         document.write(str[str.length-i-1]);
 
-        document.write(`</p>`);
+//         document.write(`</p>`);
         
+// }
+
+// let a = +prompt('введите число А');
+// let b = +prompt('введите число Б');
+// let sum = 0;
+
+
+// for(let i=a; i<=b; i++){
+//     sum = sum + Math.pow(i,2);
+// }
+//    alert(sum);
+
+let a = +prompt('введите число N');
+let b = +prompt('введите число M');
+let sum = 0;
+
+
+for(let i=a; i<=a; i++){
+    i = i/2
+    if(i<b){
+        break;
+    }
+    document.write(`<p>`);
+    document.write(i);
+    document.write(`</p>`);
 }
+
 
 
 
