@@ -301,45 +301,63 @@
 // }
 // game();
 
+
+
 function game(){
-        let dep = +prompt('Введите суму депозита');
-        for(let i=1;i<1000;i++){
-        let rate;
-        do{ 
-        rate = +prompt('Ваша ставка');
-        }while(rate>dep);
-        let digit = +prompt('Введите число от 1 до 6');
-        
-        function getRandomInt(min, max) {
-                return Math.floor(Math.random() * (max - min)) + min;
-              }
-        
-        let castOne = getRandomInt(1,6);
-        if(digit == castOne){
-                dep = dep + rate;
-        }
-        alert(dep);
-        let castTwo = getRandomInt(1,6);
-        if(digit == castTwo){
-                dep = dep + (rate*2);
-        }
-        alert(dep);
-        let castThree = getRandomInt(1,6);
-        if(digit == castThree){
-                dep = dep + (rate*3);
-        }
-        alert(dep);
-        if(digit !==castOne || digit !==castTwo || digit !==castThree){
-                dep = dep - rate;
-        }
-        alert(dep);
-        if(dep<=0){
-                alert('Игра закочена');
-                break;
-        }
-        }
-        }
-        game();
+let dep = +prompt('Введите суму депозита');
+for(let i=1;i<1000;i++){
 
+let rate;
+do{ 
+rate = +prompt('Ваша ставка №'+i);
+}while(rate>dep);
 
+if(rate==0){
+        alert('Игра Окончена \nВы выиграли:'+dep);
+        break;
+}
+
+let digit = +prompt('Введите число от 1 до 6');
+
+function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+      }
+
+let castOne = getRandomInt(1,6);
+if(digit == castOne){
+        dep = dep + rate;
+        alert('Вы выиграли! \nВаш счет:'+dep);
+} else {
+        alert('Вы ничего не выиграли'); 
+}
+
+let castTwo = getRandomInt(1,6);
+if(digit == castTwo){
+        dep = dep + (rate*2);
+        alert('Вы выиграли! \nВаш счет:'+dep);
+} else {
+        alert('Вы ничего не выиграли'); 
+}
+
+let castThree = getRandomInt(1,6);
+if(digit == castThree){
+        dep = dep + (rate*3);
+        alert('Вы выиграли! \nВаш счет:'+dep);
+} else {
+        alert('Вы ничего не выиграли'); 
+}
+
+if(digit == castOne || digit == castTwo || digit == castThree){
+        dep = dep;
+} else {
+        dep = dep - rate;
+}
+alert('Ваша счет:'+dep);
+if(dep<=0){
+        alert('Игра закочена');
+        break;
+}
+}
+}
+game();
 
