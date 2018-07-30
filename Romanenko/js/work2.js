@@ -194,22 +194,152 @@
 // }
 //    alert(sum);
 
-let a = +prompt('введите число N');
-let b = +prompt('введите число M');
-let sum = 1;
+// let a = +prompt('введите число N');
+// let b = +prompt('введите число M');
+// let sum = 1;
 
 
-for(let i=a; i<=a; i++){
-    i = i/2
-    if(i<b){
-        break;
-    }
-    document.write(`<p>`);
-    document.write(i);
-    document.write(`</p>`);
-    document.write(`Итераций:${sum++}`);
-}
+// for(let i=a; i<=a; i++){
+//     i = i/2
+//     if(i<b){
+//         break;
+//     }
+//     document.write(`<p>`);
+//     document.write(i);
+//     document.write(`</p>`);
+//     document.write(`Итераций:${sum++}`);
+// }
 
+
+// function getTable(rows,cols){
+//         let htmlString = ('<table border="1">')
+//         for (let i=1; i<=rows; i++){
+//                 htmlString += ('<tr>'); //stroka
+//                 for (let k=1; k<=cols; k++) {
+//                     if( (i+k)%2==0){
+//                         htmlString+=(`<td style="background-color:green">${i}*${k}=${i*k}</td>`); //ya4eyka
+//                         } else {
+//                         htmlString+=(`<td style="background-color:red">${i}*${k}=${i*k}</td>`);
+//                         }
+//                 htmlString+=('</tr>');
+                
+//             }
+//             htmlString+=('</table>');
+//             return htmlString;
+// }
+//      
+// document.write(getTable(10,10));
+
+// function min(first,second){
+//         if (first<second){
+//                 return first
+//         } else {
+//                 return second
+//         }
+// }
+// function max(first,second){
+//         if (first>second){
+//                 return first
+//         } else {
+//                 return second
+//         }
+// }
+// document.write(min(2,3));
+// document.write(max(5,3));
+
+
+
+// function getDep(){
+// let dep = +prompt('Введите суму депозита');
+// return dep;
+// }
+// function getRate(){
+// let rate = +prompt('Ваша ставка');
+// return rate;
+// }
+
+// getDep();
+// do {getRate()}while(getRate()>getDep());
+
+// function game(){
+// let dep = +prompt('Введите суму депозита');
+// for(let i=1;i<1000;i++){
+// let rate;
+// do{ 
+// rate = +prompt('Ваша ставка');
+// }while(rate>dep);
+// let digit = +prompt('Введите число от 1 до 6');
+
+// function getRandomInt(min, max) {
+//         return Math.floor(Math.random() * (max - min)) + min;
+//       }
+
+// let castOne = getRandomInt(1,6);
+// if(digit == castOne){
+//         dep = dep + rate;
+// }
+// alert(dep);
+// let castTwo = getRandomInt(1,6);
+// if(digit == castTwo){
+//         dep = dep + (rate*2);
+// }
+// alert(dep);
+// let castThree = getRandomInt(1,6);
+// if(digit == castThree){
+//         dep = dep + (rate*3);
+// }
+// alert(dep);
+// if(digit !==castOne || digit !==castTwo || digit !==castThree){
+//         dep = dep - rate;
+// }
+// alert(dep);
+// if(dep<=0){
+//         alert('Игра закочена');
+//         break;
+// }
+// }
+// }
+// game();
+
+function game(){
+        let dep = +prompt('Введите суму депозита');
+        for(let i=1;i<1000;i++){
+        let rate;
+        do{ 
+        rate = +prompt('Ваша ставка');
+        }while(rate>dep);
+        let digit = +prompt('Введите число от 1 до 6');
+        
+        function getRandomInt(min, max) {
+                return Math.floor(Math.random() * (max - min)) + min;
+              }
+        
+        let castOne = getRandomInt(1,6);
+        if(digit == castOne){
+                dep = dep + rate;
+        }
+        alert(dep);
+        let castTwo = getRandomInt(1,6);
+        if(digit == castTwo){
+                dep = dep + (rate*2);
+        }
+        alert(dep);
+        let castThree = getRandomInt(1,6);
+        if(digit == castThree){
+                dep = dep + (rate*3);
+        }
+        alert(dep);
+        if(digit !==castOne || digit !==castTwo || digit !==castThree){
+                dep = dep - rate;
+        }
+        alert(dep);
+        if(dep<=0){
+                alert('Игра закочена');
+                break;
+        }
+        }
+        }
+        game();
 
 
 
