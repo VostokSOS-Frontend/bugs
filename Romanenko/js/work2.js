@@ -250,19 +250,4 @@
 
 
 
-function game(dep,rate){
-        
-        do{rate()}while((rate()<deposit) || ( rate()==0));
-
-        function dep(){
-                let dep = +prompt('депозит');
-                return dep;
-        }
-        
-        function rate(){
-                let rate = +prompt('ставка');
-                return rate;
-        }
-}
-
 
