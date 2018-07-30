@@ -194,21 +194,75 @@
 // }
 //    alert(sum);
 
-let a = +prompt('введите число N');
-let b = +prompt('введите число M');
-let sum = 0;
+// let a = +prompt('введите число N');
+// let b = +prompt('введите число M');
+// let sum = 0;
 
 
-for(let i=a; i<=a; i++){
-    i = i/2
-    if(i<b){
-        break;
-    }
-    document.write(`<p>`);
-    document.write(i);
-    document.write(`</p>`);
+// for(let i=a; i<=a; i++){
+//     i = i/2
+//     if(i<b){
+//         break;
+//     }
+//     document.write(`<p>`);
+//     document.write(i);
+//     document.write(`</p>`);
+// }
+
+
+
+// function getTable(rows,cols){
+//         let htmlString = ('<table border="1">')
+//         for (let i=1; i<=rows; i++){
+//                 htmlString += ('<tr>'); //stroka
+//                 for (let k=1; k<=cols; k++) {
+//                     if( (i+k)%2==0){
+//                         htmlString+=(`<td style="background-color:green">${i}*${k}=${i*k}</td>`); //ya4eyka
+//                         } else {
+//                         htmlString+=(`<td style="background-color:red">${i}*${k}=${i*k}</td>`);
+//                         }
+//                 htmlString+=('</tr>');
+                
+//             }
+//             htmlString+=('</table>');
+//             return htmlString;
+// }
+//      
+// document.write(getTable(10,10));
+
+// function min(first,second){
+//         if (first<second){
+//                 return first
+//         } else {
+//                 return second
+//         }
+// }
+// function max(first,second){
+//         if (first>second){
+//                 return first
+//         } else {
+//                 return second
+//         }
+// }
+// document.write(min(2,3));
+// document.write(max(5,3));
+
+
+
+
+function game(dep,rate){
+        
+        do{rate()}while((rate()<deposit) || ( rate()==0));
+
+        function dep(){
+                let dep = +prompt('депозит');
+                return dep;
+        }
+        
+        function rate(){
+                let rate = +prompt('ставка');
+                return rate;
+        }
 }
-
-
 
 
