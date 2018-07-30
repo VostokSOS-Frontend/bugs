@@ -196,7 +196,7 @@
 
 let a = +prompt('введите число N');
 let b = +prompt('введите число M');
-let sum = 0;
+let sum = 1;
 
 
 for(let i=a; i<=a; i++){
@@ -207,6 +207,7 @@ for(let i=a; i<=a; i++){
     document.write(`<p>`);
     document.write(i);
     document.write(`</p>`);
+    document.write(`Итераций:${sum++}`);
 }
 
 
