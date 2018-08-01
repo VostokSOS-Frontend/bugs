@@ -258,8 +258,6 @@
 // return rate;
 // }
 
-<<<<<<< HEAD
-=======
 // getDep();
 // do {getRate()}while(getRate()>getDep());
 
@@ -305,62 +303,77 @@
 
 
 
-function game(){
-let dep = +prompt('Введите суму депозита');
-for(let i=1;i<1000;i++){
+// function game(){
+// let dep = +prompt('Введите суму депозита');
+// for(let i=1;i<1000;i++){
 
-let rate;
-do{ 
-rate = +prompt('Ваша ставка №'+i);
-}while(rate>dep);
+// let rate;
+// do{ 
+// rate = +prompt('Ваша ставка №'+i);
+// }while(rate>dep);
 
-if(rate==0){
-        alert('Игра Окончена \nВы выиграли:'+dep);
-        break;
-}
+// if(rate==0){
+//         alert('Игра Окончена \nВы выиграли:'+dep);
+//         break;
+// }
 
-let digit = +prompt('Введите число от 1 до 6');
+// let digit = +prompt('Введите число от 1 до 6');
 
-function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
-      }
+// function getRandomInt(min, max) {
+//         return Math.floor(Math.random() * (max - min)) + min;
+//       }
 
-let castOne = getRandomInt(1,6);
-if(digit == castOne){
-        dep = dep + rate;
-        alert('Вы выиграли! \nВаш счет:'+dep);
-} else {
-        alert('Вы ничего не выиграли'); 
-}
+// let castOne = getRandomInt(1,6);
+// if(digit == castOne){
+//         dep = dep + rate;
+//         alert('Вы выиграли! \nВаш счет:'+dep);
+// } else {
+//         alert('Вы ничего не выиграли'); 
+// }
 
-let castTwo = getRandomInt(1,6);
-if(digit == castTwo){
-        dep = dep + (rate*2);
-        alert('Вы выиграли! \nВаш счет:'+dep);
-} else {
-        alert('Вы ничего не выиграли'); 
-}
+// let castTwo = getRandomInt(1,6);
+// if(digit == castTwo){
+//         dep = dep + (rate*2);
+//         alert('Вы выиграли! \nВаш счет:'+dep);
+// } else {
+//         alert('Вы ничего не выиграли'); 
+// }
 
-let castThree = getRandomInt(1,6);
-if(digit == castThree){
-        dep = dep + (rate*3);
-        alert('Вы выиграли! \nВаш счет:'+dep);
-} else {
-        alert('Вы ничего не выиграли'); 
-}
+// let castThree = getRandomInt(1,6);
+// if(digit == castThree){
+//         dep = dep + (rate*3);
+//         alert('Вы выиграли! \nВаш счет:'+dep);
+// } else {
+//         alert('Вы ничего не выиграли'); 
+// }
 
-if(digit == castOne || digit == castTwo || digit == castThree){
-        dep = dep;
-} else {
-        dep = dep - rate;
-}
-alert('Ваша счет:'+dep);
-if(dep<=0){
-        alert('Игра закочена');
-        break;
-}
-}
-}
-game();
->>>>>>> ad8adaf8b442a955eefaa2ac37a68b75b9badb2e
+// if(digit == castOne || digit == castTwo || digit == castThree){
+//         dep = dep;
+// } else {
+//         dep = dep - rate;
+// }
+// alert('Ваша счет:'+dep);
+// if(dep<=0){
+//         alert('Игра закочена');
+//         break;
+// }
+// }
+// }
+// game();
+
+// let str = prompt('введите слово');
+
+// for(let i = 0; i<str.length;i++){
+//         document.write(`<p>`);
+//         document.write(str[i]);
+//         document.write('('+str.charCodeAt(i)+')');
+//         document.write(`<p>`);
+// }
+
+// for(let i = 0; i<1000;i++){
+        
+//         document.write(String.fromCharCode(i));
+        
+// }
+
 
