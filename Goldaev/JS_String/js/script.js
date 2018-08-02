@@ -1,23 +1,36 @@
 "strict mode";
 
-var work = true;
+var isWork;
 
-while(work){
-    //checkURL();
-    login();
+var login;
+var password;
+var email;
+
+main()
+
+function main() {
+    isWork = true;
+    while(isWork){
+        //checkURL();
+        loginForm();
+    }
 }
 
 
+
+
+// работа с URL
 function checkURL() {
 
     var srt = prompt('Введите сайт',  'http://site.ua');
 
     check(srt);
 
-    work = confirm("Continue or end?");
+    isWork = confirm("Continue or end?");
 
 }
 
+// Проверка URL и вывод
 function check(site) {
 
     var res;
@@ -34,12 +47,9 @@ function check(site) {
     alert(res);
 }
 
-var login;
-var password;
-var email;
 
-
-function login() {
+// ввод логина, пароля, емейла
+function loginForm() {
 
     enterLogin();
 
@@ -47,16 +57,18 @@ function login() {
 
     enterEmail();
 
-    work = confirm("Continue or end?");
+    isWork = confirm("Continue or end?");
 
 }
 
+// ввод логина
 function enterLogin() {
 
     login = prompt("Enter login", "taylor_143");
 
 }
 
+// ввод пароля
 function enterPass() {
 
     password = prompt("Enter password more than 5 symbols)");
@@ -66,6 +78,7 @@ function enterPass() {
 
 }
 
+// ввод емейла
 function enterEmail() {
 
     email = prompt("Enter email");
@@ -80,6 +93,7 @@ function enterEmail() {
 
 }
 
+// проверка емейла на "собачку"
 function checkDog() {
     var havedog = false;
     while(havedog == false){
@@ -90,6 +104,7 @@ function checkDog() {
     }
 }
 
+// проверка емейла на пробелы
 function checkSpace() {
 
     var havespace = false;
@@ -101,6 +116,7 @@ function checkSpace() {
 
 }
 
+// проверка емейла на окончание ".com"
 function checkEnd() {
     var normalEnd = false;
 
@@ -110,6 +126,7 @@ function checkEnd() {
     }
 }
 
+// проверка емейла на содержание "собачки" конкретно в слове до ".com"
 function checkDogInWord() {
     var dogInWord = false;
 
