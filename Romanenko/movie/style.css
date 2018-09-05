@@ -1,0 +1,143 @@
+@font-face {
+    font-family: AdobeGothicStd-Bold; /* Имя шрифта */
+    src: url(fonts/AdobeGothicStd-Bold.otf); /* Путь к файлу со шрифтом */
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#3f444e;
+}
+header{
+
+    width: 1195px;
+    margin:206px auto 0 auto;
+}
+nav{
+
+    margin: auto;
+    background-color: #fff;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.logo{
+    font-size:19px;
+    font-family: AdobeGothicStd-Bold;
+    color:#3f444e;
+    text-transform: uppercase;
+    display:flex;
+    margin-left:30px;
+}
+.nav>ul{
+    list-style-type: none;
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 850px;
+    padding: 0;
+}
+.nav>ul>li{
+    margin-right: 47px;
+}
+.nav>ul>li:last-child{
+    margin-right:0;
+}
+.user>ul{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    padding: 0;
+}
+.user>ul:last-child{
+    align-items: flex-end;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 12px;
+    background-image: url('img/topPanel/Layer\ 1.jpg');
+    background-size: 150%;
+    background-position:top center; 
+    position:relative;
+}
+.icon>img{
+    position: absolute;
+    right:-4px;
+}
+.user-name{
+    font-size:15px;
+    font-family: AdobeGothicStd-Bold;
+    color:#3f444e;
+    margin-right: 18px;
+}
+.banner{
+    height: 500px;
+    background-image: url('img/header/banner.png');
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.banner>button{
+    text-transform: uppercase;
+    font-family: AdobeGothicStd-Bold;
+    color:#fff;
+    height: 38px;
+    width: 118px;
+    background-color: #d8232a;
+    border:none;
+    border-radius: 5px;
+    position: absolute;
+    right:189px;
+    top:289px;
+    cursor:pointer;
+}
+.rating{
+    height: 50px;
+    width: 1195px;
+    display: flex;
+    align-items: center;
+}
+.rating>ul{
+    display:flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.rating>ul>li{
+    text-transform: uppercase;
+    font-family: AdobeGothicStd-Bold;
+    color:#fff;
+    font-size: 14px;
+    margin-right:30px;
+}
+.rating>.first{
+    margin-left: 33px;
+}
+.rating>ul>li>span{
+    color:#d8232a;
+    margin-left:5px;
+}
+.stars{
+    position: relative;
+    top:-1px;
+    margin-left:10px;
+}
+.last{
+    color:#fff;
+}
+.rating>ul>li>span>.fa{
+    margin:0 2px;
+}
+.rating>.second{
+    width: 250px;
+    margin-left: auto;
+}
+.second .fa{
+color:#d8232a;
+margin-right:12px;
+}
+

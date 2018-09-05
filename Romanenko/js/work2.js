@@ -330,6 +330,7 @@
 // } else {
 //         alert('Вы ничего не выиграли'); 
 // }
+<<<<<<< HEAD
 
 // let castTwo = getRandomInt(1,6);
 // if(digit == castTwo){
@@ -411,4 +412,76 @@ output();
 
 
 
+=======
 
+// let castTwo = getRandomInt(1,6);
+// if(digit == castTwo){
+//         dep = dep + (rate*2);
+//         alert('Вы выиграли! \nВаш счет:'+dep);
+// } else {
+//         alert('Вы ничего не выиграли'); 
+// }
+
+// let castThree = getRandomInt(1,6);
+// if(digit == castThree){
+//         dep = dep + (rate*3);
+//         alert('Вы выиграли! \nВаш счет:'+dep);
+// } else {
+//         alert('Вы ничего не выиграли'); 
+// }
+
+// if(digit == castOne || digit == castTwo || digit == castThree){
+//         dep = dep;
+// } else {
+//         dep = dep - rate;
+// }
+// alert('Ваша счет:'+dep);
+// if(dep<=0){
+//         alert('Игра закочена');
+//         break;
+// }
+// }
+// }
+// game();
+
+// let str = prompt("введите адрес сайта");
+// let ofStr = str.indexOf('site.ua');
+
+// for(let i = ofStr;i<str.length; i++ ){
+// document.write(str[i]);
+// }
+
+// let login = prompt("Ваш логин?");
+// let pass = prompt("Ваш пароль?");
+// let email = prompt("Ваш email?");
+
+// function test(login,pass,email){
+//         if(pass.length>=5 && (email.indexOf('@') !=-1)){
+//                 return alert(true);
+//         } else {
+//                 return alert(false);
+//         }
+// }
+// test(login,pass,email);
+
+// for(let i = 0;i<=5; i++){
+//         document.write('<p>');
+//         for(let k = 0;k<=5;k++){
+//                 if((i+k)%2 == 0){
+//                         document.write("*");
+//                 } else {
+//                         document.write('#');
+//                 }
+//         }
+//         document.write('</p>');
+// }
+let el1 = document.getElementById('h1');
+
+function change(elem){
+        elem.innerHTML = "HI, how are you?"
+}
+>>>>>>> 223fd26ea9aa48f83d0c687f68bdb83a7b6fde68
+
+function changeReturn(elem){
+        elem.innerHTML = "Hello, World!"
+}
