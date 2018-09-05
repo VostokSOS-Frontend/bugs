@@ -19,11 +19,14 @@ h1{
 h1:hover{
     letter-spacing:1px;
     transition:0.5s;
+    box-shadow: none;
 }
     
 </style>
 <body>
-    <h1>Hello, World!</h1>
+    <h1 id="h1">Hello, World!</h1>
     <script src="js/work2.js"></script>
+    <input type="button" value="change" onclick="change(el1)">
+    <input type="button" value="return" onclick="changeReturn(el1)">
 </body>
 </html>

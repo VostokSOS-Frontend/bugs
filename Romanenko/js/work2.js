@@ -368,15 +368,36 @@
 // document.write(str[i]);
 // }
 
-let login = prompt("Ваш логин?");
-let pass = prompt("Ваш пароль?");
-let email = prompt("Ваш email?");
+// let login = prompt("Ваш логин?");
+// let pass = prompt("Ваш пароль?");
+// let email = prompt("Ваш email?");
 
-function test(login,pass,email){
-        if(pass.length>=5 && (email.indexOf('@') !=-1)){
-                return alert(true);
-        } else {
-                return alert(false);
-        }
+// function test(login,pass,email){
+//         if(pass.length>=5 && (email.indexOf('@') !=-1)){
+//                 return alert(true);
+//         } else {
+//                 return alert(false);
+//         }
+// }
+// test(login,pass,email);
+
+// for(let i = 0;i<=5; i++){
+//         document.write('<p>');
+//         for(let k = 0;k<=5;k++){
+//                 if((i+k)%2 == 0){
+//                         document.write("*");
+//                 } else {
+//                         document.write('#');
+//                 }
+//         }
+//         document.write('</p>');
+// }
+let el1 = document.getElementById('h1');
+
+function change(elem){
+        elem.innerHTML = "HI, how are you?"
 }
-test(login,pass,email);
+
+function changeReturn(elem){
+        elem.innerHTML = "Hello, World!"
+}

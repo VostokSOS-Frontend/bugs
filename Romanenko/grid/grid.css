@@ -1,0 +1,22 @@
+body{
+    margin:0;
+}
+.d1{background:LightSkyBlue;grid-column: 1 / 4;}
+  .d2{background:LightSalmon;grid-column: 1 / 3}
+  .d3{background:PaleTurquoise;grid-column: 1 / 3}
+  .d4{background:LightPink;grid-column:3/4;grid-row:2/5}
+  .d5{background:rgb(119, 62, 71);grid-column: 1 / 3}
+  .d6{background:rgb(82, 224, 113);grid-column: 1 / 4;}
+  .header {
+    grid-area: h;
+}
+  
+.container {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
