@@ -377,3 +377,38 @@
 // }
 
 
+let todoList = [];
+
+function addItem(item){
+    todoList.push(item);
+    output();
+}
+
+function removeItem(index){
+    todoList.splice(index,1);
+    output();
+}
+
+function createItem(){
+    addItem(document.getElementById('do').value);
+    
+}
+
+function output(){
+    let html = '<ol>';
+
+    todoList.forEach(function(element,index){
+    html+='<li>'+element+'<button onclick="removeItem('+index+')">x</button></li>';
+     });
+    
+    html+='</ol>';
+
+    document.getElementById('output').innerHTML=html;
+}
+
+output();
+
+
+
+
+
