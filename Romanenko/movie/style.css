@@ -190,7 +190,7 @@ left:10px;
     height: 30px;
     width: 30px;
     background-image:url("img/header/Layer 23.png");
-    background-size: 100%;
+    background-size: 100% 100%;
     border-radius: 50%;
     position: relative;
     left:-8px;
@@ -285,56 +285,56 @@ input::-webkit-search-results-decoration { display: none; }
 .d1{
     grid-area: d1;
      background-image: url(img/Content/img-9.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
     
 }
 .d2{
     grid-area: d2;
      background-image: url(img/Content/img-3.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
 .d3{
     grid-area: d3;
     background-image: url(img/Content/img-7.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
 .d4{
     grid-area: d4;
     background-image: url(img/Content/img-6.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
 .d5{
     grid-area: d5;
     background-image: url(img/Content/img-5.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
 .d6{
     grid-area: d6;
     background-image: url(img/Content/img-8.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
 .d7{
     grid-area: d7;
     background-image: url(img/Content/img-2.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
 .d8{
     grid-area: d8;
     background-image: url(img/Content/img.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
 .d9{
     grid-area: d9;
     background-image: url(img/Content/img-1.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
 .d10{
     grid-area: d10;
-    background-image: url(img/Content/img.png);
-    background-size: 100%; 
+    background-image: url(img/Content/action.png);
+    background-size: 100% 100%; 
 }
 .d11{
     grid-area: d11;
     background-image: url(img/Content/img-6.png);
-    background-size: 100%; 
+    background-size: 100% 100%; 
 }
