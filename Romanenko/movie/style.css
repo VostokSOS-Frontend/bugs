@@ -2,6 +2,10 @@
     font-family: AdobeGothicStd-Bold; /* Имя шрифта */
     src: url(fonts/AdobeGothicStd-Bold.otf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+    font-family:calibri;
+    src: url(fonts/calibrii.ttf);
+}
 body{
     margin: 0;
     padding: 0;
@@ -27,12 +31,13 @@ nav{
     display:flex;
     margin-left:30px;
 }
+.nav{
+    margin:auto;
+}
 .nav>ul{
     list-style-type: none;
     display:flex;
     align-items: baseline;
-    justify-content: center;
-    width: 850px;
     padding: 0;
 }
 .nav>ul>li{
@@ -46,6 +51,7 @@ nav{
     display:flex;
     align-items: center;
     padding: 0;
+    margin-right: 30px;
 }
 .user>ul:last-child{
     align-items: flex-end;
@@ -72,7 +78,7 @@ nav{
 }
 .banner{
     height: 500px;
-    background-image: url('img/header/banner.png');
+    background-image: url('img/header/bannerr.png'); 
     background-size: 100%;
     position: relative;
     display: flex;
@@ -97,6 +103,7 @@ nav{
     width: 1195px;
     display: flex;
     align-items: center;
+    background-color: rgba(7,7,7,0.3);
 }
 .rating>ul{
     display:flex;
@@ -195,4 +202,139 @@ left:10px;
     border-radius: 50%;
     margin:20px;
     list-style-type: none;
+}
+
+main{
+    width: 1195px;
+    background-color: #edeff0;
+    margin:auto;
+}
+.info{
+    height: 85px;
+    display:flex;
+    align-items: center;
+}
+.fea{
+    text-transform: uppercase;
+    font-family: AdobeGothicStd-Bold;
+    color:#51555d;
+    font-size: 17px;
+    margin-left: 33px;
+}
+.real{
+    list-style-type: none;
+    display:flex;
+    font-family: calibri;
+    color:#989ca4;
+    font-size: 18px;
+    padding: 0;
+    margin:auto;
+}
+.real>li:first-child{
+    color:#3f444e;
+}
+.search{
+    margin-right: 37px;
+    position: relative;
+}
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    vertical-align: middle; /* Выравнивание по середине */
+    width: 162px; /* Ширина поля */
+    min-height: 25px;
+    background-color: #edeff0;
+    border-bottom: solid 1px #989ca4;
+    font-family: calibri;
+    color:#989ca4;
+    font-size: 14px;
+}
+input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(img/search.png) no-repeat 50% 50%;
+    cursor:pointer;
+    position: absolute;
+    top:2px;
+    right:0;
+    z-index: 100;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+.content{
+    margin: 0 33px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(188px, auto);
+    grid-gap: 24px;
+    grid-template-areas: 
+    "d1 d2 d3 d4 d5"
+    "d6 d2 d7 d7 d8"
+    "d9 d9 d10 d11 d8"
+}
+.content>div{
+    border-radius: 5px;
+    /* border: solid 1px black; */
+}
+.content img{
+    width: 100%;
+}
+.d1{
+    grid-area: d1;
+     background-image: url(img/Content/img-9.png);
+    background-size: 100%; 
+    
+}
+.d2{
+    grid-area: d2;
+     background-image: url(img/Content/img-3.png);
+    background-size: 100%; 
+}
+.d3{
+    grid-area: d3;
+    background-image: url(img/Content/img-7.png);
+    background-size: 100%; 
+}
+.d4{
+    grid-area: d4;
+    background-image: url(img/Content/img-6.png);
+    background-size: 100%; 
+}
+.d5{
+    grid-area: d5;
+    background-image: url(img/Content/img-5.png);
+    background-size: 100%; 
+}
+.d6{
+    grid-area: d6;
+    background-image: url(img/Content/img-8.png);
+    background-size: 100%; 
+}
+.d7{
+    grid-area: d7;
+    background-image: url(img/Content/img-2.png);
+    background-size: 100%; 
+}
+.d8{
+    grid-area: d8;
+    background-image: url(img/Content/img.png);
+    background-size: 100%; 
+}
+.d9{
+    grid-area: d9;
+    background-image: url(img/Content/img-1.png);
+    background-size: 100%; 
+}
+.d10{
+    grid-area: d10;
+    background-image: url(img/Content/img.png);
+    background-size: 100%; 
+}
+.d11{
+    grid-area: d11;
+    background-image: url(img/Content/img-6.png);
+    background-size: 100%; 
 }
