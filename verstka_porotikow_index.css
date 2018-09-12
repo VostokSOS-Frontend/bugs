@@ -1,5 +1,6 @@
 body{
     background-image: url(image/23-2-firewatch.jpg)
+
 }
 #logo{
     width: 80px;
@@ -8,22 +9,24 @@ body{
 }
 #logotext{
     color: #ff0457;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: georgia,serif;
     text-transform: uppercase;
 }
-.logotype li{
+.logotype li {
     display: inline-block;
     vertical-align: middle;
 
 }
-.col{
+.right a{
     text-decoration: none;
     display: inline-block;
     vertical-align: middle;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: black;
     margin-left: 30px;
+    list-style-type: none;
+    margin-top: -200px;
     
 }
 .search{
@@ -34,9 +37,19 @@ body{
 }
 .text{
     display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:  georgia,serif;
     font-size: 40px;
-    text-align: center;
     margin-top: 200px;
-    margin-left:18%;
+    margin-left:22%;
+}
+.right{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin-left: 30px;
+    list-style-type: none;
+    float: right;
+    display: flex;
 }

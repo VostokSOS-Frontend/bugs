@@ -1,0 +1,266 @@
+body{
+    background-color: rgb(216, 215, 215);
+    margin:0;
+}
+header{
+    position: relative;
+    background-color: white;
+    width:100%;
+    height: 90px;
+}
+.moviestoretxt {
+    position: absolute;
+    margin-left:40px;
+    bottom: 45%;
+}
+.icons{
+    
+   margin-left: 25%;
+}
+.img_icons{
+    margin-top:25px;
+    margin-left: 200px;
+    
+}
+.icons img{
+    margin-left: 80px;
+}
+.userphoto{
+    position: absolute;
+    bottom: 40%;
+    margin-left: 1250px;
+    width: 40px;
+    height: 40px;
+}
+.editprofileimage{
+    margin-left: 1320px;
+    position: absolute;
+    bottom: 50%; 
+}
+.galaxy{
+    width: 100%;
+    height: 490px;
+    background-image: url(image/img/header/banner.png);
+}
+.circles{
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 24px;
+    width: 10px;
+    height: 100px;
+}
+.userface{
+position: absolute;
+margin-left: 13px;
+margin-top: 270px;
+}
+.watchnow{
+    margin-left: 890px;
+    margin-top:283px;
+   
+}
+.watchnowtxt{
+    display: block;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 67%;
+    margin-top:-34px;
+}
+a{
+   
+    text-decoration: none;
+}
+.characters{
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-transform: uppercase;
+}
+.data{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(221, 37, 37);
+    text-transform: uppercase;
+}
+#published{
+font-weight: bold;
+font-size: 15px;
+margin-top: 135px;
+margin-left: 20px;
+}
+#feb1{
+font-weight: bold;
+font-size: 15px;
+margin-top: 135px;
+margin-left: 115px;
+}
+#updated{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 135px;
+    margin-left: 250px;
+}
+#feb2{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 135px;
+    margin-left: 330px;
+    }
+#rating{
+    height: 15px;
+    margin-top: 135px;
+    margin-left: 470px;
+}
+.moviestatus{
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 480px;
+}
+#featmv{
+color:rgb(73, 73, 73); 
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+margin-left: 40px;
+margin-top: 40px;
+}
+#newrel{
+position: absolute;
+color:rgb(19, 19, 19); 
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 550px;
+margin-top: 40px;
+}
+#trcl{
+    position: absolute;
+    color:rgba(19, 19, 19, 0.61); 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 655px;
+    margin-top: 40px;
+}
+#search{
+    height: 17px;
+    width: 150px;
+    border: none;
+    box-shadow: 0px 2px 1px rgb(165, 165, 165);
+    color: rgb(165, 165, 165);
+    background-color: rgb(216, 215, 215);
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1105px;
+}
+#gvlegends{
+    
+    margin-left:40px;
+    margin-top: 100px;
+}
+#gvlegendsstat{
+    
+    margin-left:-180px;
+    margin-top: 90px;
+}
+#stark{
+position: absolute;
+margin-top: 100px;
+margin-left: 40px;
+}
+#action{
+    position: absolute;
+    margin-left:60px;
+    margin-top: 120px;
+}
+#cap{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 290px;
+}
+#capstat{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 310px;
+}
+#spiderman{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+#spidermanstat{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 570px;
+}
+#hulk{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+#hulkstat{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 820px;
+}
+#firstavenger{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: -210px;
+}
+#firstavengerstat{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: -200px;
+}
+#tor{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 290px;
+    width: 468px;
+    height:190px;
+}
+#playbar{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 330px;
+}
+#rosomaha{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 800px;
+}
+#rosomahastat{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 820px;
+}
+#people-x{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: -210px;
+    width: 456px;
+}
+#box{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 290px;
+    height: 160px;
+}
+#actionbox{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 305px;
+   
+}
+#rattingactionbox{
+    position: absolute;
+    margin-top: 635px;
+    margin-left: 305px;
+   
+}
+#spiderman2{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 548px;
+    height: 160px;
+}
